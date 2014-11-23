@@ -616,7 +616,7 @@ if (plugCubed !== undefined) plugCubed.close();
             this.customColorsStyle = $('<style type="text/css" />');
             $('head').append(this.customColorsStyle);
             p3Utils.chatLog(undefined, p3Lang.i18n('running', version) + '</span><br /><span class="chat-text" style="color:#66FFFF">' + p3Lang.i18n('commandsHelp'), this.colors.infoMessage1);
-            API.chatLog('There can/will be bugs in this version of plugCubed', true);
+            API.chatLog('Il peux y avoir des bugs dans cette version de PlugCubed', true);
 
             $('body').prepend('<link rel="stylesheet" type="text/css" id="plugcubed-css" href="https://d1rfegul30378.cloudfront.net/files/plugCubed.css?_' + Date.now() + '" />');
             $('#app-menu').after(menuButton);
